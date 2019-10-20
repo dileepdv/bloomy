@@ -12,7 +12,7 @@
 ```
 composer install
 ```
-### Create database as laravel (anything as you like)
+### Create database as laravel (or anything as you like)
 ```
 configure the below fields in .env file
 
@@ -28,7 +28,7 @@ DB_PASSWORD=
 ```
 php artisan migrate
 
-php artisan db:seed UsersTableSeeder
+php artisan db:seed --class=UsersTableSeeder
 
 php artisan serve
 ```
