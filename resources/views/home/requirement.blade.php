@@ -20,6 +20,15 @@
                                 <li>User should be able to show and hide the order summary</li>
                             </ul>
                         </p>
+                        <p>
+                            <span class="h3">Functionality</span>
+                            <hr>
+                            <ul>
+                                <li>Simiulation of two users</li>
+                                <li>Edit and save the configurations as user choice</li>
+                                <li>Download Inovice</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
             </div>

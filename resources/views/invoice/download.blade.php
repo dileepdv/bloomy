@@ -54,7 +54,7 @@
                                     <tr>
                                         <td>{{ $products['flower_name'] }}</td>
                                         <td>{{ $products['quantity'] }}</td>
-                                        <td>{{ $products['price'] }}</td>
+                                        <td>&euro; {{ $products['price'] }}</td>
                                     </tr>
                                 <?php } ?>
                             </tbody>
@@ -68,15 +68,15 @@
                         <table class="table table-bordered float-md-right align-self-end" width="100%">
                             <tr>
                                 <td>Bouquet Cost</td>
-                                <td>{{ $product_cost }}</td>
+                                <td>&euro; {{ $product_cost }}</td>
                             </tr>
                             <tr>
                                 <td>Logistics Cost</td>
-                                <td>{{ 5 }}</td>
+                                <td>&euro; {{ 5 }}</td>
                             </tr>
                             <tr>
                                 <td>Total Cost</td>
-                                <td>{{ $product_cost + 5 }}</td>
+                                <td>&euro; {{ $product_cost + 5 }}</td>
                             </tr>
                     </table>
                     </div>

@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-md-12">
                 <span class="h3">
-                    User - <?php echo $user->name; ?>
+                    Welcome <?php echo $user->name; ?>
                 </span> 
                 <hr>
             </div>            
@@ -55,7 +55,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">                
-                <a href="<?php echo route('invoice.show',$user->id); ?>" class="btn btn-primary mt-5">Download Invoice</a>                
+                <a href="<?php echo route('invoice.show',$user->id); ?>" class="btn btn-primary mt-5">Download Invoice</a> 
             </div>
         </div>
     </div>
